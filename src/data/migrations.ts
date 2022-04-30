@@ -103,7 +103,7 @@ const insertSchoolsCause = () => connection("hack_relation_cause_school")
     .catch(showError);
 
 const insertOngsCause = () => connection("hack_relation_cause_school")
-    .insert(schoolsCause)
+    .insert(ongsCause)
     .then(() => console.log("hack_relation_cause_school was populated"))
     .catch(showError);
 
