@@ -1,0 +1,22 @@
+[
+    {
+      "id": "bd014a9a-259a-433f-a5ab-2b4f20df1e7f",
+      "cause": "Reciclagem"
+    },
+    {
+      "id": "5831dfa9-8b1f-42dc-a3d5-c9e090d7a27a",
+      "cause": "Compostagem"
+    },
+    {
+      "id": "710613cd-a447-42f5-a54c-be8fe83df1e5",
+      "cause": "Alimentos Orgânicos"
+    },
+    {
+      "id": "85251ff1-bf83-40ba-b3e3-c727d751e6ab",
+      "cause": "Economia de água"
+    },
+    {
+      "id": "1754b37b-41fc-4be5-8064-7be0f60c5b76",
+      "cause": "Economia de energia"
+    }
+  ]
