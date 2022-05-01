@@ -10,34 +10,14 @@
         "cause_id": "85251ff1-bf83-40ba-b3e3-c727d751e6ab"
     },
     {
-        "id": "bac69d77-897c-40ab-9ecd-790f01f21c56",
-        "school_id": "0b8e532a-ed09-4461-b889-70421243a246",
-        "cause_id": "bd014a9a-259a-433f-a5ab-2b4f20df1e7f"
-    },
-    {
         "id": "d74de00f-ec01-4d2e-ade8-d5ec03317fb5",
         "school_id": "a8b791cf-bfe6-42da-ab80-ec794b893ca7",
         "cause_id": "710613cd-a447-42f5-a54c-be8fe83df1e5"
     },
     {
-        "id": "223d25a2-d26b-4f5e-9a93-50d837762252",
-        "school_id": "a8b791cf-bfe6-42da-ab80-ec794b893ca7",
-        "cause_id": "85251ff1-bf83-40ba-b3e3-c727d751e6ab"
-    },
-    {
         "id": "ef24e0f8-78ba-489e-93c8-84fcb391bc06",
         "school_id": "a8b791cf-bfe6-42da-ab80-ec794b893ca7",
         "cause_id": "85251ff1-bf83-40ba-b3e3-c727d751e6ab"
-    },
-    {
-        "id": "0d6e3edd-6339-4d7b-a89f-50b3361fb11c",
-        "school_id": "a8b791cf-bfe6-42da-ab80-ec794b893ca7",
-        "cause_id": "5831dfa9-8b1f-42dc-a3d5-c9e090d7a27a"
-    },
-    {
-        "id": "59f65f79-7aa8-4ec8-8728-b577e9af543f",
-        "school_id": "a8b791cf-bfe6-42da-ab80-ec794b893ca7",
-        "cause_id": "1754b37b-41fc-4be5-8064-7be0f60c5b76"
     },
     {
         "id": "59a63222-eca6-4715-ae4c-e2842e58851d",
@@ -53,16 +33,6 @@
         "id": "e929d457-7fb3-4525-bd42-24f136dd06ea",
         "school_id": "d2ec6c95-1f61-446c-ac71-adb0e56a9bcf",
         "cause_id": "5831dfa9-8b1f-42dc-a3d5-c9e090d7a27a"
-    },
-    {
-        "id": "f8410e42-1d39-4cbd-92f1-0688fd03e5cb",
-        "school_id": "d2ec6c95-1f61-446c-ac71-adb0e56a9bcf",
-        "cause_id": "710613cd-a447-42f5-a54c-be8fe83df1e5"
-    },
-    {
-        "id": "1664af49-4a8b-4bfe-98bf-86c42f75b400",
-        "school_id": "d0c4b2e1-5079-4eab-8047-7b7b89f265d5",
-        "cause_id": "710613cd-a447-42f5-a54c-be8fe83df1e5"
     },
     {
         "id": "a26ff39b-67b2-457c-b7a5-1fe39c2af663",
@@ -90,11 +60,6 @@
         "cause_id": "710613cd-a447-42f5-a54c-be8fe83df1e5"
     },
     {
-        "id": "4628dd49-bb3b-4a4c-910b-9bc9ddf92f74",
-        "school_id": "1cefc5c9-303b-4a97-a8f5-012ff81a333a",
-        "cause_id": "85251ff1-bf83-40ba-b3e3-c727d751e6ab"
-    },
-    {
         "id": "49872372-9689-476b-a9e8-a578e10a0743",
         "school_id": "1cefc5c9-303b-4a97-a8f5-012ff81a333a",
         "cause_id": "5831dfa9-8b1f-42dc-a3d5-c9e090d7a27a"
@@ -110,11 +75,6 @@
         "cause_id": "710613cd-a447-42f5-a54c-be8fe83df1e5"
     },
     {
-        "id": "d94599e6-3811-4cb2-b1a3-5d7d664b59ef",
-        "school_id": "2e4d0df6-99db-4ffe-9040-f93974d19c2b",
-        "cause_id": "85251ff1-bf83-40ba-b3e3-c727d751e6ab"
-    },
-    {
         "id": "fbc6fe84-8e5b-4016-8e99-5cc0d1a2f2c6",
         "school_id": "2e4d0df6-99db-4ffe-9040-f93974d19c2b",
         "cause_id": "1754b37b-41fc-4be5-8064-7be0f60c5b76"
@@ -123,11 +83,6 @@
         "id": "da171afe-076f-41ec-8a90-eac8078792af",
         "school_id": "428b0e2e-643e-4ba6-ae7c-290ba89d788a",
         "cause_id": "5831dfa9-8b1f-42dc-a3d5-c9e090d7a27a"
-    },
-    {
-        "id": "392494b5-8613-421a-b036-ce22de44d2e2",
-        "school_id": "428b0e2e-643e-4ba6-ae7c-290ba89d788a",
-        "cause_id": "1754b37b-41fc-4be5-8064-7be0f60c5b76"
     },
     {
         "id": "b1375a1b-9989-4139-a4ab-b1c75fd0dd41",
@@ -150,11 +105,6 @@
         "cause_id": "710613cd-a447-42f5-a54c-be8fe83df1e5"
     },
     {
-        "id": "035a49a7-7b04-42c1-9fd2-538ae5450d63",
-        "school_id": "feea87e1-cc95-4814-b345-62c9a7b4dfa7",
-        "cause_id": "85251ff1-bf83-40ba-b3e3-c727d751e6ab"
-    },
-    {
         "id": "945aa768-cb2f-43dd-82aa-99621c93be13",
         "school_id": "c45ee712-7e8e-48f4-841c-aefaf47067c3",
         "cause_id": "85251ff1-bf83-40ba-b3e3-c727d751e6ab"
@@ -168,10 +118,5 @@
         "id": "a6486801-c148-4d28-bbbd-53e58c6a9c06",
         "school_id": "c45ee712-7e8e-48f4-841c-aefaf47067c3",
         "cause_id": "5831dfa9-8b1f-42dc-a3d5-c9e090d7a27a"
-    },
-    {
-        "id": "622dad2e-ab73-453c-9c44-14ddc365dc99",
-        "school_id": "c45ee712-7e8e-48f4-841c-aefaf47067c3",
-        "cause_id": "710613cd-a447-42f5-a54c-be8fe83df1e5"
     }
 ]
