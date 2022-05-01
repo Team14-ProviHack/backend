@@ -21,10 +21,12 @@ const createSchoolsTable = (): Promise<void> => connection
             name VARCHAR(255) NOT NULL,
             address VARCHAR(255) NOT NULL,
             state VARCHAR(255) NOT NULL,
-            description VARCHAR(n) NOT NULL,
+            description VARCHAR(240) NOT NULL,
+            name_principal VARCHAR(255) NOT NULL,
+            office VARCHAR(255) NOT NULL,
+            social_media VARCHAR(255),
             email VARCHAR(255) UNIQUE,
-            telephone VARCHAR(255) UNIQUE,
-            social_media VARCHAR(255)
+            telephone VARCHAR(255) UNIQUE
         );
     `)
     .then(()=> console.log("Created School's Table"))
@@ -37,10 +39,12 @@ const createOngsTable = (): Promise<void> => connection
             name VARCHAR(255) NOT NULL,
             address VARCHAR(255) NOT NULL,
             state VARCHAR(255) NOT NULL,
-            description VARCHAR(n) NOT NULL,
+            description VARCHAR(240) NOT NULL,
+            name_principal VARCHAR(255) NOT NULL,
+            office VARCHAR(255) NOT NULL,
+            social_media VARCHAR(255),
             email VARCHAR(255) UNIQUE,
-            telephone VARCHAR(255) UNIQUE,
-            social_media VARCHAR(255)
+            telephone VARCHAR(255) UNIQUE
         );
     `)
     .then(()=> console.log("Created ONG's Table"))
@@ -63,7 +67,7 @@ const createRelationCauseSchool = (): Promise<void> => connection
             cause_id VARCHAR(255) NOT NULL,
             school_id VARCHAR(255) NOT NULL,
             FOREIGN KEY (cause_id) REFERENCES hack_causes(id),
-            FOREIGN KEY (school_id) REFERENCES hack_schools(id),
+            FOREIGN KEY (school_id) REFERENCES hack_schools(id)
         );
     `)
     .then(()=> console.log("Created School's Causes Table"))
@@ -71,12 +75,12 @@ const createRelationCauseSchool = (): Promise<void> => connection
 
 const createRelationCauseOng = (): Promise<void> => connection
     .raw(`
-        CREATE TABLE IF NOT EXISTS hack_relation_cause_school(
+        CREATE TABLE IF NOT EXISTS hack_relation_cause_ong(
             id VARCHAR(255) PRIMARY KEY,
             cause_id VARCHAR(255) NOT NULL,
             ong_id VARCHAR(255) NOT NULL,
             FOREIGN KEY (cause_id) REFERENCES hack_causes(id),
-            FOREIGN KEY (ong_id) REFERENCES hack_ongs(id),
+            FOREIGN KEY (ong_id) REFERENCES hack_ongs(id)
         );
     `)
     .then(()=> console.log("Created ONG's Causes Table"))
@@ -102,22 +106,22 @@ const insertSchoolsCause = () => connection("hack_relation_cause_school")
     .then(() => console.log("hack_relation_cause_school was populated"))
     .catch(showError);
 
-const insertOngsCause = () => connection("hack_relation_cause_school")
-    .insert(schoolsCause)
-    .then(() => console.log("hack_relation_cause_school was populated"))
+const insertOngsCause = () => connection("hack_relation_cause_ong")
+    .insert(ongsCause)
+    .then(() => console.log("hack_relation_cause_ong was populated"))
     .catch(showError);
 
 createSchoolsTable()
-    .then(insertSchools);
+    // .then(insertSchools);
 
 createOngsTable()
-    .then(insertOngs);
+    // .then(insertOngs);
 
 createCausesTable()
-    .then(insertCauses);
+    // .then(insertCauses);
 
 createRelationCauseSchool()
-    .then(insertSchoolsCause);
+    // .then(insertSchoolsCause);
 
 createRelationCauseOng()
-    .then(insertOngsCause);
+    // .then(insertOngsCause);

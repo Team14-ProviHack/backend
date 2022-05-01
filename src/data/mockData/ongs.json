@@ -1,0 +1,122 @@
+[
+    {
+        "id": "f1a615fb-c0fd-4133-a8fa-ecef5aa8e075",
+        "name": "Santa Antônia Eco",
+        "address": "Rua Tenente-Coronel Cardoso, 432 - João Pessoa",
+        "state": "PB",
+        "description": "Projeto focado na empregabilidade de pessoas de comunidades vulneráveis. Nossas atividades são focadas em palestras e oficinas práticas.",
+        "name_principal": "Laís de Jesus",
+        "office": "Gestora de Projetos",
+        "email": "projetosa@gmail.com",
+        "telephone": "(83) 99342-4876", 
+        "social_media": "https://www.instagram.com/"
+    },
+    {
+        "id": "10ae7578-cfd5-4dde-bee7-70f1511a7a32",
+        "name": "Salve Maracaípe",
+        "address": "Rodovia Raposo Tavares, 90 - Recife",
+        "state": "PE",
+        "description": "Nosso trabalho é focado em realizar oficinas sobre sustentabilidade para crianças e adolescentes.",
+        "name_principal": "Daniel Silva",
+        "office": "Coordenadora de Ações",
+        "email": "dan23@hotmail.com",
+        "telephone": "(81) 98408-5404", 
+        "social_media": "https://www.facebook.com/"
+    },
+    {
+        "id": "8c38e8e0-7faf-4647-92b6-a3d2dade7df7",
+        "name": "Rede Cidadã",
+        "address": "Avenida Afonso Pena, 890 - Porto Velho",
+        "state": "RO",
+        "description": "Atuamos na cidade da Boa vista/RO com crianças até 12 anos. Com oficinas e atividades em campo.",
+        "name_principal": "Ádria Tavares",
+        "office": "Mídias Sociais",
+        "email": "adrinha14@hotmail.com",
+        "telephone": "(69) 98926-6115", 
+        "social_media": "https://www.facebook.com/"
+    },
+    {
+        "id": "f00dc937-61bc-4f41-85b6-37fdf964bbdc",
+        "name": "Idesam",
+        "address": "Rua Frederico Moura, 94B - São Paulo",
+        "state": "SP",
+        "description": "Projeto social focado em diminuir a desigualdade ecosocial em periferias da cidade de São Paulo. Trabalhamos realizando oficinas e palestras para jovens e adultos.",
+        "name_principal": "Luciana Real",
+        "office": "Presidente",
+        "email": "lureal@gmail.com",
+        "telephone": "(15) 98948-1231", 
+        "social_media": "https://www.instagram.com/"
+    },
+    {
+        "id": "de3bf2bd-8d2e-44c2-8120-0e7b7fea25a2",
+        "name": "Centro Cidadania",
+        "address": "Rua Arlindo Nogueira, 2121 - Curitiba",
+        "state": "PR",
+        "description":  "Atuamos na em comunidades do Paraná com oficinas e atividades em campo para crianças e adolescentes até 16 anos.",
+        "name_principal": "Bruno Lopes",
+        "office": "Coordenadora de Sustentabilidade",
+        "email": "blrt@gmail.com",
+        "telephone": "(46) 98276-3367", 
+        "social_media": "https://www.instagram.com/"
+    },
+    {
+        "id": "ffc36533-e8de-419f-a3e0-ce2ee2928a2f",
+        "name": "Avosos",
+        "address": "Praça da República, 892 - Campo Grande",
+        "state": "MS",
+        "description": "Somos focados na empregabilidade de mulheres no mercado sustentável, criando soluções verdes e que possam gerar renda. Nossas atividades são realizadas através de cursos e oficinas",
+        "name_principal": "Layane Lucena",
+        "office": "Gestora de Comunicação",
+        "email": "lay_lu@outlook.com",
+        "telephone": "(67) 98555-6931", 
+        "social_media": "https://www.instagram.com/"
+    },
+    {
+        "id": "5abe9b23-5a12-46d9-89d4-ad6055128305",
+        "name": "Ecosolicas",
+        "address": "Rua Domingos Olímpio, 4356 - Recife",
+        "state": "PE",
+        "description": "Projeto social para capacitar jovens e adultos para criar soluções sustentáveis e aplicar em areas afetadas pelo descaso com meio ambiente.",
+        "name_principal": "João Paulo",
+        "office": "Gestão de voluntariado",
+        "email": "jotapa@gmail.com",
+        "telephone": "(81) 97362-7374", 
+        "social_media": "https://www.facebook.com/"
+    },
+    {
+        "id": "3b31780a-49a4-4ba9-b307-1c4640dc1f20",
+        "name": "Recicla Mais",
+        "address": "Rua da Imprensa, 211 - Olinda",
+        "state": "RO",
+        "description": "Projeto focado em crianças, jovens e adultos para capacitar e criar soluções sustentáveis para suas comunidades",
+        "name_principal": "Julio Lima",
+        "office": "Coordenadora de Projetos",
+        "email": "juli@recicla.com",
+        "telephone": "(69) 98415-7458", 
+        "social_media": "https://www.instagram.com/"
+    },
+    {
+        "id": "e75db5b7-6a5a-41cb-acbf-1194adee3bb5",
+        "name": "Escola de Planta",
+        "address": "Rua Frederico Moura, 33 - Olinda",
+        "state": "PE",
+        "description": "ONG Pernambucana focada em ações de sustentabilidade em periferias. Trabalhamos realizando oficinas e palestras para jovens e adultos.",
+        "name_principal": "Geyse Souza",
+        "office": "Coordenadora de Ações",
+        "email": "gsouza@outlook.com",
+        "telephone": "(81) 96873-2385", 
+        "social_media": "https://www.facebook.com/"
+    },
+    {
+        "id": "6b250abd-af1b-449b-a2e1-3db56633b34f",
+        "name": "Instituto Thunberg",
+        "address": "Avenida Desembargador Moreira, 1287 - Beberibe",
+        "state": "CE",
+        "description":  "Realizamos atividades de cursos e oficinas para jovens entre 14 e 29 anos com foco na empregabilidade no mercado sustentável",
+        "name_principal": "Greta Thunberg",
+        "office": "CEO",
+        "email": "gretaativista@thunberg.com",
+        "telephone": "(85) 98828-2100", 
+        "social_media": "https://www.instagram.com/"
+    }
+]
