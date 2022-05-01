@@ -1,3 +1,4 @@
+import { OngRequest } from "../../types";
 import { connection } from "../connection";
 import { showError } from "../migrations";
 
@@ -5,7 +6,7 @@ import { showError } from "../migrations";
 export const selectOngs = async (
     name?: string,
     state?: string
-) => {
+): Promise<OngRequest[]> => {
     if (name && state) {
         const result = await connection("hack_ongs")
         .select(
@@ -24,10 +25,11 @@ export const selectOngs = async (
         ).whereLike("name", `%${name}%`)
         .where({state})
         .orderBy("hack_ongs.name", "asc")
-        .then(res => console.log(res))
+        .then(res => res)
         .catch(showError);
+
+        return result as OngRequest[];
     
-        console.log(result);
     } else if (name) {
         const result = await connection("hack_ongs")
         .select(
@@ -45,10 +47,10 @@ export const selectOngs = async (
             "hack_causes.id",           
         ).whereLike("name", `%${name}%`)
         .orderBy("hack_ongs.name", "asc")
-        .then(res => console.log(res))
+        .then(res => res)
         .catch(showError);
     
-        console.log(result);
+        return result as OngRequest[];
 
     } else if (state) {
         const result = await connection("hack_ongs")
@@ -67,10 +69,10 @@ export const selectOngs = async (
             "hack_causes.id",           
         ).where({state})
         .orderBy("hack_ongs.name", "asc")
-        .then(res => console.log(res))
+        .then(res => res)
         .catch(showError);
     
-        console.log(result);
+        return result as OngRequest[];
 
     } else {
         const result = await connection("hack_ongs")
@@ -88,9 +90,10 @@ export const selectOngs = async (
             "=",
             "hack_causes.id",           
         ).orderBy("hack_ongs.name", "asc")
-        .then(res => console.log(res))
+        .then(res => res)
         .catch(showError);
+
+        return result as OngRequest[];
     
-        console.log(result);
     };
 };
