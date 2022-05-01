@@ -1,3 +1,4 @@
+import { SchoolRequest } from "../../types";
 import { connection } from "../connection";
 import { showError } from "../migrations";
 
@@ -5,7 +6,7 @@ import { showError } from "../migrations";
 export const selectSchools = async (
     name?: string,
     state?: string
-) => {
+): Promise<SchoolRequest[]> => {
     if (name && state) {
         const result = await connection("hack_schools")
         .select(
@@ -24,10 +25,10 @@ export const selectSchools = async (
         ).whereLike("name", `%${name}%`)
         .where({state})
         .orderBy("hack_schools.name", "asc")
-        .then(res => console.log(res))
+        .then(res => res)
         .catch(showError);
     
-        console.log(result);
+        return result as SchoolRequest[];
     } else if (name) {
         const result = await connection("hack_schools")
         .select(
@@ -45,10 +46,10 @@ export const selectSchools = async (
             "hack_causes.id",           
         ).whereLike("name", `%${name}%`)
         .orderBy("hack_schools.name", "asc")
-        .then(res => console.log(res))
+        .then(res => res)
         .catch(showError);
     
-        console.log(result);
+        return result as SchoolRequest[];
 
     } else if (state) {
         const result = await connection("hack_schools")
@@ -67,10 +68,10 @@ export const selectSchools = async (
             "hack_causes.id",           
         ).where({state})
         .orderBy("hack_schools.name", "asc")
-        .then(res => console.log(res))
+        .then(res => res)
         .catch(showError);
     
-        console.log(result);
+        return result as SchoolRequest[];
 
     } else {
         const result = await connection("hack_schools")
@@ -88,9 +89,9 @@ export const selectSchools = async (
             "=",
             "hack_causes.id",           
         ).orderBy("hack_schools.name", "asc")
-        .then(res => console.log(res))
+        .then(res => res)
         .catch(showError);
     
-        console.log(result);
+        return result as SchoolRequest[];
     };
 };
