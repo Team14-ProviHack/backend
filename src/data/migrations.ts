@@ -60,18 +60,18 @@ const createCausesTable = (): Promise<void> => connection
     .then(()=> console.log("Created Causes's Table"))
     .catch(showError);
 
-// const createRelationCauseSchool = (): Promise<void> => connection
-//     .raw(`
-//         CREATE TABLE IF NOT EXISTS hack_relation_cause_school(
-//             id VARCHAR(255) PRIMARY KEY,
-//             cause_id VARCHAR(255) NOT NULL,
-//             school_id VARCHAR(255) NOT NULL,
-//             FOREIGN KEY (cause_id) REFERENCES hack_causes(id),
-//             FOREIGN KEY (school_id) REFERENCES hack_schools(id)
-//         );
-//     `)
-//     .then(()=> console.log("Created School's Causes Table"))
-//     .catch(showError);
+const createRelationCauseSchool = (): Promise<void> => connection
+    .raw(`
+        CREATE TABLE IF NOT EXISTS hack_relation_cause_school(
+            id VARCHAR(255) PRIMARY KEY,
+            cause_id VARCHAR(255) NOT NULL,
+            school_id VARCHAR(255) NOT NULL,
+            FOREIGN KEY (cause_id) REFERENCES hack_causes(id),
+            FOREIGN KEY (school_id) REFERENCES hack_schools(id)
+        );
+    `)
+    .then(()=> console.log("Created School's Causes Table"))
+    .catch(showError);
 
 // const createRelationCauseOng = (): Promise<void> => connection
 //     .raw(`
@@ -101,27 +101,27 @@ const insertCauses = () => connection("hack_causes")
     .then(() => console.log("hack_causes was populated"))
     .catch(showError);
 
-// const insertSchoolsCause = () => connection("hack_relation_cause_school")
-//     .insert(schoolsCause)
-//     .then(() => console.log("hack_relation_cause_school was populated"))
-//     .catch(showError);
+const insertSchoolsCause = () => connection("hack_relation_cause_school")
+    .insert(schoolsCause)
+    .then(() => console.log("hack_relation_cause_school was populated"))
+    .catch(showError);
 
 // const insertOngsCause = () => connection("hack_relation_cause_ong")
 //     .insert(ongsCause)
 //     .then(() => console.log("hack_relation_cause_ong was populated"))
 //     .catch(showError);
 
-createSchoolsTable();
+createSchoolsTable()
     // .then(insertSchools);
 
-createOngsTable();
+createOngsTable()
     // .then(insertOngs);
 
-createCausesTable();
+createCausesTable()
     // .then(insertCauses);
 
-// createRelationCauseSchool();
-    // .then(insertSchoolsCause);
+createRelationCauseSchool()
+    .then(insertSchoolsCause);
 
-// createRelationCauseOng();
+// createRelationCauseOng()
     // .then(insertOngsCause);
