@@ -29,8 +29,8 @@ const createSchoolsTable = (): Promise<void> => connection
             telephone VARCHAR(255) UNIQUE
         );
     `)
-    .then(()=> console.log("Created School's Table"))
-    .catch(showError);
+    // .then(()=> console.log("Created School's Table"))
+    // .catch(showError);
 
 const createOngsTable = (): Promise<void> => connection
     .raw(`
@@ -47,8 +47,8 @@ const createOngsTable = (): Promise<void> => connection
             telephone VARCHAR(255) UNIQUE
         );
     `)
-    .then(()=> console.log("Created ONG's Table"))
-    .catch(showError);
+    // .then(()=> console.log("Created ONG's Table"))
+    // .catch(showError);
 
 const createCausesTable = (): Promise<void> => connection
     .raw(`
@@ -57,8 +57,8 @@ const createCausesTable = (): Promise<void> => connection
             cause VARCHAR(255) UNIQUE NOT NULL
         );
     `)
-    .then(()=> console.log("Created Causes's Table"))
-    .catch(showError);
+    // .then(()=> console.log("Created Causes's Table"))
+    // .catch(showError);
 
 const createRelationCauseSchool = (): Promise<void> => connection
     .raw(`
@@ -70,8 +70,8 @@ const createRelationCauseSchool = (): Promise<void> => connection
             FOREIGN KEY (school_id) REFERENCES hack_schools(id)
         );
     `)
-    .then(()=> console.log("Created School's Causes Table"))
-    .catch(showError);
+    // .then(()=> console.log("Created School's Causes Table"))
+    // .catch(showError);
 
 const createRelationCauseOng = (): Promise<void> => connection
     .raw(`
@@ -83,8 +83,8 @@ const createRelationCauseOng = (): Promise<void> => connection
             FOREIGN KEY (ong_id) REFERENCES hack_ongs(id)
         );
     `)
-    .then(()=> console.log("Created ONG's Causes Table"))
-    .catch(showError);
+    // .then(()=> console.log("Created ONG's Causes Table"))
+    // .catch(showError);
 
 const insertSchools = () => connection("hack_schools")
     .insert(schools)
