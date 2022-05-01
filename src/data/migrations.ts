@@ -73,18 +73,18 @@ const createRelationCauseSchool = (): Promise<void> => connection
     .then(()=> console.log("Created School's Causes Table"))
     .catch(showError);
 
-// const createRelationCauseOng = (): Promise<void> => connection
-//     .raw(`
-//         CREATE TABLE IF NOT EXISTS hack_relation_cause_ong(
-//             id VARCHAR(255) PRIMARY KEY,
-//             cause_id VARCHAR(255) NOT NULL,
-//             ong_id VARCHAR(255) NOT NULL,
-//             FOREIGN KEY (cause_id) REFERENCES hack_causes(id),
-//             FOREIGN KEY (ong_id) REFERENCES hack_ongs(id)
-//         );
-//     `)
-//     .then(()=> console.log("Created ONG's Causes Table"))
-//     .catch(showError);
+const createRelationCauseOng = (): Promise<void> => connection
+    .raw(`
+        CREATE TABLE IF NOT EXISTS hack_relation_cause_ong(
+            id VARCHAR(255) PRIMARY KEY,
+            cause_id VARCHAR(255) NOT NULL,
+            ong_id VARCHAR(255) NOT NULL,
+            FOREIGN KEY (cause_id) REFERENCES hack_causes(id),
+            FOREIGN KEY (ong_id) REFERENCES hack_ongs(id)
+        );
+    `)
+    .then(()=> console.log("Created ONG's Causes Table"))
+    .catch(showError);
 
 const insertSchools = () => connection("hack_schools")
     .insert(schools)
@@ -106,10 +106,10 @@ const insertSchoolsCause = () => connection("hack_relation_cause_school")
     .then(() => console.log("hack_relation_cause_school was populated"))
     .catch(showError);
 
-// const insertOngsCause = () => connection("hack_relation_cause_ong")
-//     .insert(ongsCause)
-//     .then(() => console.log("hack_relation_cause_ong was populated"))
-//     .catch(showError);
+const insertOngsCause = () => connection("hack_relation_cause_ong")
+    .insert(ongsCause)
+    .then(() => console.log("hack_relation_cause_ong was populated"))
+    .catch(showError);
 
 createSchoolsTable()
     // .then(insertSchools);
@@ -121,7 +121,7 @@ createCausesTable()
     // .then(insertCauses);
 
 createRelationCauseSchool()
-    .then(insertSchoolsCause);
+    // .then(insertSchoolsCause);
 
-// createRelationCauseOng()
+createRelationCauseOng()
     // .then(insertOngsCause);
