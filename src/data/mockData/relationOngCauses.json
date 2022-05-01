@@ -15,11 +15,6 @@
         "cause_id": "bd014a9a-259a-433f-a5ab-2b4f20df1e7f"
     },
     {
-        "id": "73e77698-14ed-4309-830b-f3be0b6041a9",
-        "ong_id": "10ae7578-cfd5-4dde-bee7-70f1511a7a32",
-        "cause_id": "710613cd-a447-42f5-a54c-be8fe83df1e5"
-    },
-    {
         "id": "e34413a9-8774-45d4-bba3-9591b2147fcc",
         "ong_id": "10ae7578-cfd5-4dde-bee7-70f1511a7a32",
         "cause_id": "bd014a9a-259a-433f-a5ab-2b4f20df1e7f"
@@ -40,29 +35,14 @@
         "cause_id": "85251ff1-bf83-40ba-b3e3-c727d751e6ab"
     },
     {
-        "id": "2f6e1a0c-fcdd-4358-bde0-461fbf732d9d",
-        "ong_id": "f00dc937-61bc-4f41-85b6-37fdf964bbdc",
-        "cause_id": "85251ff1-bf83-40ba-b3e3-c727d751e6ab"
-    },
-    {
         "id": "6e4c82c3-ffaa-44de-88bf-dbf00189f6df",
         "ong_id": "f00dc937-61bc-4f41-85b6-37fdf964bbdc",
         "cause_id": "710613cd-a447-42f5-a54c-be8fe83df1e5"
     },
     {
-        "id": "114eac01-bd6d-48e9-85d4-a457c4d1dab5",
-        "ong_id": "f00dc937-61bc-4f41-85b6-37fdf964bbdc",
-        "cause_id": "bd014a9a-259a-433f-a5ab-2b4f20df1e7f"
-    },
-    {
         "id": "cbf4c7cb-1372-400c-857a-65449c7651df",
         "ong_id": "f00dc937-61bc-4f41-85b6-37fdf964bbdc",
         "cause_id": "1754b37b-41fc-4be5-8064-7be0f60c5b76"
-    },
-    {
-        "id": "d67e15d2-7cc4-42e4-8ffc-dfaf61e0c708",
-        "ong_id": "de3bf2bd-8d2e-44c2-8120-0e7b7fea25a2",
-        "cause_id": "bd014a9a-259a-433f-a5ab-2b4f20df1e7f"
     },
     {
         "id": "c1eb220c-6b58-4121-8a1e-7a6c4e760cd9",
@@ -73,16 +53,6 @@
         "id": "882e4794-26ef-4f8b-b528-85f229a6b54f",
         "ong_id": "de3bf2bd-8d2e-44c2-8120-0e7b7fea25a2",
         "cause_id": "5831dfa9-8b1f-42dc-a3d5-c9e090d7a27a"
-    },
-    {
-        "id": "b3ce087f-adfe-49f1-ac92-06c87e6148c2",
-        "ong_id": "ffc36533-e8de-419f-a3e0-ce2ee2928a2f",
-        "cause_id": "85251ff1-bf83-40ba-b3e3-c727d751e6ab"
-    },
-    {
-        "id": "10434c28-a547-4634-bff9-ef92c59f6896",
-        "ong_id": "ffc36533-e8de-419f-a3e0-ce2ee2928a2f",
-        "cause_id": "1754b37b-41fc-4be5-8064-7be0f60c5b76"
     },
     {
         "id": "8ca232a8-4182-4676-bfbe-15993a477150",
@@ -98,16 +68,6 @@
         "id": "9dff7408-8c93-4172-9978-d6bbd0188876",
         "ong_id": "5abe9b23-5a12-46d9-89d4-ad6055128305",
         "cause_id": "bd014a9a-259a-433f-a5ab-2b4f20df1e7f"
-    },
-    {
-        "id": "21779058-2a56-434f-9b85-6d1ea124f232",
-        "ong_id": "5abe9b23-5a12-46d9-89d4-ad6055128305",
-        "cause_id": "85251ff1-bf83-40ba-b3e3-c727d751e6ab"
-    },
-    {
-        "id": "21be9670-3ed2-4f95-b831-20a9ee34d419",
-        "ong_id": "5abe9b23-5a12-46d9-89d4-ad6055128305",
-        "cause_id": "1754b37b-41fc-4be5-8064-7be0f60c5b76"
     },
     {
         "id": "deef149e-c043-4a2a-9332-a8d925be19d7",
@@ -130,16 +90,6 @@
         "cause_id": "1754b37b-41fc-4be5-8064-7be0f60c5b76"
     },
     {
-        "id": "d1e58fee-caaa-479f-a612-8cf33510f462",
-        "ong_id": "e75db5b7-6a5a-41cb-acbf-1194adee3bb5",
-        "cause_id": "85251ff1-bf83-40ba-b3e3-c727d751e6ab"
-    },
-    {
-        "id": "c791c662-337d-4f8e-abaf-f332d0a166b9",
-        "ong_id": "e75db5b7-6a5a-41cb-acbf-1194adee3bb5",
-        "cause_id": "5831dfa9-8b1f-42dc-a3d5-c9e090d7a27a"
-    },
-    {
         "id": "3e0e79a3-d6f3-4d1c-8ba5-769282c5bc8d",
         "ong_id": "e75db5b7-6a5a-41cb-acbf-1194adee3bb5",
         "cause_id": "710613cd-a447-42f5-a54c-be8fe83df1e5"
@@ -153,20 +103,5 @@
         "id": "94bb0f47-3adb-401c-89e2-db965c11a260",
         "ong_id": "6b250abd-af1b-449b-a2e1-3db56633b34f",
         "cause_id": "5831dfa9-8b1f-42dc-a3d5-c9e090d7a27a"
-    },
-    {
-        "id": "0133400f-04c4-489f-89f3-e19a7cafb5f1",
-        "ong_id": "6b250abd-af1b-449b-a2e1-3db56633b34f",
-        "cause_id": "85251ff1-bf83-40ba-b3e3-c727d751e6ab"
-    },
-    {
-        "id": "05cdeab3-15f6-4840-9461-8c5c93ff3bf6",
-        "ong_id": "6b250abd-af1b-449b-a2e1-3db56633b34f",
-        "cause_id": "1754b37b-41fc-4be5-8064-7be0f60c5b76"
-    },
-    {
-        "id": "2dab6e02-a1c5-40b7-92bf-f2831d12d90b",
-        "ong_id": "6b250abd-af1b-449b-a2e1-3db56633b34f",
-        "cause_id": "710613cd-a447-42f5-a54c-be8fe83df1e5"
     }
 ]
