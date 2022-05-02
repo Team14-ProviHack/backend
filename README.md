@@ -24,7 +24,8 @@
 
 ## 👷‍♀️ Desenvolvedora
 
-
+| [Ádria Tavares](https://www.linkedin.com/in/adria-tavares/)| 
+| :---: |
 
 <hr/>
 
